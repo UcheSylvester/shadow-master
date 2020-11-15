@@ -11,6 +11,8 @@ const validateAndReturnSpacing = (spacing) => {
   )
     return spacing;
 
+  console.log({ spacing });
+
   return;
 };
 
