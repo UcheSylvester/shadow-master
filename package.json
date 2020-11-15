@@ -1,0 +1,23 @@
+{
+  "name": "shadow-master",
+  "version": "1.0.0",
+  "description": "Perfect shadow generator for your next project!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UcheSylvester/shadow-master.git"
+  },
+  "keywords": [
+    "shadow",
+    "design"
+  ],
+  "author": "UcheSylvester",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UcheSylvester/shadow-master/issues"
+  },
+  "homepage": "https://github.com/UcheSylvester/shadow-master#readme"
+}

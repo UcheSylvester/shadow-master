@@ -26,7 +26,7 @@ shadowMaster({
 
 ### Options
 
-Shadowmaster supports 4 options which all options:
+Shadowmaster supports 4 options which all optional:
 
 - _selector_ - Any valid css selector works here. It defaults to _.shadow-master_ whenever none is provided
 
