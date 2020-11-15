@@ -17,7 +17,7 @@ import { shadowMaster } from "shadowmaster";
 
 shadowMaster({
   selector: ".shadow-master",
-  shadowType: "soft", //
+  shadowType: "soft",
   margin: 10,
   padding: 10,
 });
