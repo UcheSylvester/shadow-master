@@ -1,6 +1,6 @@
 const validUnits = ["px", "em", "rem"];
 
-const validateSpacing = (spacing) => {
+const validateAndReturnSpacing = (spacing) => {
   if (!spacing) return;
 
   if (typeof spacing === "number") return `${spacing}px`;
@@ -27,11 +27,11 @@ function shadowMaster(options = {}) {
     item.style.boxShadow = `10px 10px ${shadowType} 1px rgba(0, 0,0, 0.12)`;
 
     if (margin && validateSpacing(margin)) {
-      item.style.margin = margin;
+      item.style.margin = validateAndReturnSpacing(margin);
     }
 
     if (margin && validateSpacing(padding)) {
-      item.style.padding = padding;
+      item.style.padding = validateAndReturnSpacing(padding);
     }
   });
 }

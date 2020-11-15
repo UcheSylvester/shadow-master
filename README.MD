@@ -2,7 +2,7 @@
 
 ## What is this ?
 
-Get perfect shadow for your next project
+Perfect shadow generator for your next big project
 
 ## Installation
 
