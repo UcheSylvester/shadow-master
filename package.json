@@ -1,6 +1,6 @@
 {
   "name": "shadow-master",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Perfect shadow generator for your next project!",
   "main": "index.js",
   "scripts": {
